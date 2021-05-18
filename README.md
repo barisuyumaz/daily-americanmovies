@@ -6,7 +6,7 @@ Takribi 5-6 saat içinde 2000 yılından 2020 yılının sonuna kadar günlük t
 İstatistik çıkarılmaya hazır hale geldikten sonra ilk elde ettiğimiz bilgi, en çok kazanan 10 dağıtımcı şirketin 20 yıl içindeki pazardaki ortalama payları ne kadardır?
 Sorusunun cevabıdır.
 ---
-Warner Bros. : %15.958506965628056
+Warner Bros. : %15.958506965628056\n
 Universal Pictures : %12.71277470350712
 Twentieth Century Fox : %11.416016733985238
 Lionsgate : %4.788386734461975
