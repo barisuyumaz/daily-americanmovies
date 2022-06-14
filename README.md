@@ -1,5 +1,7 @@
 # daily-americanmovies
 To capture and analyze daily data of American films that were released in the USA between 2000-2020.
+
+Kurulumu ve Kullanımı
 Öncelikle daily-00-20.py kaydedilecek adrese kendi bilgisayarınızın adresini ekleyip, gerekli kütüphaneleri bilgisayara yükleyip bu py dosyasını çalıştırıyoruz. 
 Takribi 5-6 saat içinde 2000 yılından 2020 yılının sonuna kadar günlük tüm film verilerini çekiyor.
 İstatistik çıkarmadan önce istatistik.py dosyasının içinde datamızı 2000-2020 yılları içinde ilk ve son gösterimi yapılmış filmleri seçerek daraltıyoruz.
