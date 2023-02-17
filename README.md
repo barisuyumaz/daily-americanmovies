@@ -45,3 +45,5 @@ To get statistical results
 * DreamWorks Distribution : %1.6901578686640508
 * DreamWorks : %2.537006128745428
 * Rest Distributor Companies : %14.879361712559803
+
+![market-shares-new](https://user-images.githubusercontent.com/44267861/219720951-f478d908-caa8-4dfb-802c-99eddf05b693.png)
