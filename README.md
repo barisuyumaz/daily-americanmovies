@@ -21,3 +21,17 @@ DreamWorks : %2.537006128745428
 Kalan şirketler : %14.879361712559803
 ---
 Daha fazla istatistik için devamı gelecek...
+
+#Instructions
+
+##Before running daily-00-20.py file:
+###1. Make sure all required libaries have installed
+```python
+import requests
+from bs4 import BeautifulSoup
+import csv
+import datetime
+import time
+```
+check it: 1. run 'pip freeze' in cmd and check 2. execute import 'requires lib' and if you don't get error, keep move)
+###2. Define a path on line 29 for your .csv file to be created 
