@@ -24,9 +24,9 @@ start = time.time()
 #-------------
 
 #PATH
-
-#-------------
 path = 'C:/Users/baris/Desktop/american-theaters-project' #define a path for .csv file
+#-------------
+
 
 #MAIN---------
 with open(path+'/2000-2020-DailyDataBoxOffice.csv','w',newline='') as dosya:
