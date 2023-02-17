@@ -39,7 +39,7 @@ with open('C:/Users/baris/Desktop/american-theaters-project/2000-2020-DailyDataB
 			for i in range(len(newdata)): #returns how many row it has
 				lastdata = newdata[i].find_all("td")
 				writelist = []
-				for j in range(11): #satırın içinde dönüyor
+				for j in range(11):
 					if(lastdata[:11][j].text == "-"):
 						data = ""
 					elif(j == 2):
