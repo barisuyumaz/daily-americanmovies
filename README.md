@@ -51,5 +51,4 @@ Using this dataset, you can explore long-term industry trends, market shares of 
 - Visualizes the top 10 distributors using a pie chart.
 
 ## Sample Output
-Top 10 Distributors by Market Share (2000–2020)
 ![market-shares-new](https://user-images.githubusercontent.com/44267861/219720951-f478d908-caa8-4dfb-802c-99eddf05b693.png)
