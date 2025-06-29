@@ -45,7 +45,7 @@ Using this dataset, you can explore long-term industry trends, market shares of 
 
 
 #### What this script does:
-- Loads the `data.csv` file and filters the date range (2000–2020).
+- Loads the `2000-2020-DailyDataBoxOfficeNew.csv` file and filters the date range (2000–2020).
 - Calculates total gross revenue per distributor.
 - Computes each distributor’s percentage share of the market.
 - Visualizes the top 10 distributors using a pie chart.
