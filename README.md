@@ -1,49 +1,55 @@
-# Daily Datas of American Movies and Their Gross in Domestic Theaters
-## Python Web Scrapping
-## Instructions
+# 🎬 Daily American Movies and Their Gross Revenue (2000–2020)
 
-### Before running daily-00-20.py file:
+This project scrapes daily box office data from [Box Office Mojo](https://www.boxofficemojo.com/) for all movies shown in American theaters between January 1, 2000 and December 31, 2020. It collects this information into a structured CSV file, allowing further analysis using Python and Pandas.
 
-#### 1. Make sure all required libaries have installed
-```python
-import requests
-from bs4 import BeautifulSoup
-import csv
-import datetime
-import time
-```
-check it: 1. run 'pip freeze' in cmd and check || 2. execute import 'required lib' and if you don't get error, keep move)
+## 📊 Project Purpose
 
-#### 2. Define a path which speacial for you computer on line 29 for your .csv file to be created 
+The main goal is to create a comprehensive dataset that shows:
+- Which movies were shown each day in U.S. theaters
+- How much domestic gross each movie earned
+- Which distributors dominated the market
 
-### Run daily-00-20.py
+Using this dataset, you can explore long-term industry trends, market shares of studios, and daily movie performance.
 
-#### How it works?
-* Merging string date variable(for example: '2000/12/31') and the main link('https://www.boxofficemojo.com/date/')
-* Through the 'requests' lib, we pull the html source codes of specified link.
-* Convert raw html source data to a tidy form and reach the searched data with 'bs4' lib.
-* Edit your data with Python string methods.
-* Export your organized data into specified file(.csv)
+## 🐍 Tech Stack
 
-#### It will take around 5-6 hours after run daily-00-20.py file.
+- **Python Version:** 3.x
+- **Libraries Used:**
+  - requests
+  - beautifulsoup4
+  - csv
+  - datetime
+  - time
+  - pandas
 
-### Run istatistik.py file:
-To get statistical results
-#### How it works?
-* Firstly, it narrows the datas to get statistics between exactly 20 years.
-* Then, get results according to our questions.
-#### Example Question: What are the top 10 most profitable distributors between 2000 and 2020 and what is their percentage in the American Market?
+## Usage
 
-* Warner Bros. : %15.958506965628056
-* Universal Pictures : %12.71277470350712
-* Twentieth Century Fox : %11.416016733985238
-* Lionsgate : %4.788386734461975
-* Walt Disney Studios Motion Pictures : %16.975391093799274
-* Sony Pictures Entertainment (SPE) : %9.312163068664887
-* Paramount Pictures : %7.7714814561342385
-* New Line Cinema : %1.9587535338499213
-* DreamWorks Distribution : %1.6901578686640508
-* DreamWorks : %2.537006128745428
-* Rest Distributor Companies : %14.879361712559803
+1. Install the required dependencies:
 
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Run the script:
+
+    ```bash
+    python daily-00-20.py.py
+    ```
+> ⚠️ It takes approximately 5–6 hours to complete, depending on your system and internet speed.
+
+3. Analyze the dataset:
+  
+    ```bash
+    python istatistik.py
+    ```
+
+
+#### What this script does:
+- Loads the `data.csv` file and filters the date range (2000–2020).
+- Calculates total gross revenue per distributor.
+- Computes each distributor’s percentage share of the market.
+- Visualizes the top 10 distributors using a pie chart.
+
+## Sample Output
+Top 10 Distributors by Market Share (2000–2020)
 ![market-shares-new](https://user-images.githubusercontent.com/44267861/219720951-f478d908-caa8-4dfb-802c-99eddf05b693.png)
