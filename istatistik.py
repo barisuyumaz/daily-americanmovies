@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 basliklar= ['sira','dunki_sira','film_adi','gunluk_kazanc','gunluk_brut_degisim','haftalik_brut_degisim','salon_sayisi','ort','su_gunekadar','gun','dagitici','tarih']
 df = pd.read_csv('2000-2020-DailyDataBoxOfficeNew.csv', sep='*', names= basliklar)
 
