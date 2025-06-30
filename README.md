@@ -33,7 +33,7 @@ Using this dataset, you can explore long-term industry trends, market shares of 
 2. Run the script:
 
     ```bash
-    python daily-00-20.py.py
+    python daily-00-20.py
     ```
 > ⚠️ It takes approximately 5–6 hours to complete, depending on your system and internet speed.
 
